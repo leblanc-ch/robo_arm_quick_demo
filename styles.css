@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.video-container {
+    max-width: 960px;
+    margin: 0 auto;
+	padding: 50px;
+    text-align: center;
+    position: relative;
+}
+
+.video-container nav {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.video-container nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.video-container nav a:hover {
+    text-decoration: underline;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    border: none;
+}
